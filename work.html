@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="ai.js"></script>
+    <script type="text/javascript" src="article.js"></script>
+    <meta name="viewport" content="width=device-width", initial-scale=1,shrink-to-fit=no>
+
+
+
+    <!-------------------Cards------------------------->
+    <style>
+        .cardai {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 12%;
+            border-radius: 5px;
+            background: lightyellow;
+            }
+
+        .article {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 12%;
+            border-radius: 5px;
+            background: lightcoral;
+            }
+
+        .cardai:hover, .article:hover{
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            }
+
+        .containerai, .containerarticle{
+            padding: 2px 16px;
+            color:green;
+            }
+
+        /*Centering cards*/
+        div.cardai {
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
+        
+        div.article {
+            display: block;
+            margin-left: auto;
+            margin-right: auto }
+        /*Centering cards*/
+
+
+    </style>
+    <!-------------------Cards------------------------->
+
+
+</head>
+<title></title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+
+
+<body style="background-color:lightgrey;">
+    <!-------------------CardAI------------------------->
+    <style>
+        p {text-align: center;}
+        h1 {text-align: center;}
+    </style>
+    <h1>Artificial Intelligence</h1>
+    <div class="cardai" style="cursor:wait" onclick="ai()">
+        <img src="images/anatomy-1751201_1280.png" alt="Avatar" style="width:100%">
+        <div class="containerai">
+                <p style="cursor:wait" onclick="ai()">AI</p>
+                <!--<p><button class="ai" onclick = "ai()"><p>Artificial Intelligence</p></button></p>-->
+        </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;
+    <!-------------------CardAI------------------------->
+
+    
+    <!-------------------CardArticle------------------------->
+    <h1>Articles</h1>
+    <div class="article" style="cursor:wait" onclick="article()">
+        <img src="images/color-circle-articles-2015356_1280.png" alt="Avatar" style="width:100%">
+        <div class="containerarticle">
+                <p style="cursor:wait" onclick="article()">ARTICLES</p>
+
+        </div>
+    </div>
+    <!-------------------CardArticle------------------------->
+
+
+</body>
+
+</html> 
