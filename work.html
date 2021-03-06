@@ -7,6 +7,16 @@
     <script type="text/javascript" src="article.js"></script>
     <meta name="viewport" content="width=device-width", initial-scale=1,shrink-to-fit=no>
 
+    <script>
+        history.pushState(null, document.title, location.href);
+        history.back();
+        history.forward();
+        window.onpopstate = function () {
+            history.go(1);
+        };
+    </script>
+    
+
 
 
     <!-------------------Cards------------------------->
