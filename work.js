@@ -1,4 +1,3 @@
 function work(){
-    location.replace("work.html");
-    
+    location.replace("work.html");    
 };
