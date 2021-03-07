@@ -1,4 +1,4 @@
 function work(){
     location.replace("work.html");
-    history.back();
+    history.go();
 };
