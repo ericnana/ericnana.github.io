@@ -1,3 +1,4 @@
-function go(){
-    history.go();  
+function goBack(){
+    window.history.back(); 
 };
+
