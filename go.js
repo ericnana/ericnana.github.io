@@ -1,4 +1,4 @@
 function goBack(){
-    history.go(); 
+    history.go(-1); 
 };
 
